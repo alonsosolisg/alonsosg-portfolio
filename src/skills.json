@@ -1,0 +1,77 @@
+[
+    {
+        "skill": "Solidity",
+        "image": "/solidity.png",
+        "link": "https://docs.soliditylang.org/"
+    },
+    {
+        "skill": "Hardhat",
+        "image": "/hardhat.png",
+        "link": "https://hardhat.org/"
+    },{
+        "skill": "Waffle",
+        "image": "/waffle.png",
+        "link": "https://getwaffle.io/"
+    },{
+        "skill": "Truffle",
+        "image": "/truffle.png",
+        "link": "https://trufflesuite.com/"
+    },{
+        "skill": "Ganache",
+        "image": "/ganache.png",
+        "link": "https://trufflesuite.com/ganache/"
+    },{
+        "skill": "JavaScript",
+        "image": "/javascript.png",
+        "link": "https://www.javascript.com/"
+    },{
+        "skill": "NodeJS",
+        "image": "/nodejs.png",
+        "link": "https://nodejs.org/en/"
+    },{
+        "skill": "React",
+        "image": "/react.png",
+        "link": "https://reactjs.org/"
+    },{
+        "skill": "NEXT.js",
+        "image": "/nextjs.png",
+        "link": "https://nextjs.org/"
+    },{
+        "skill": "EthersJS",
+        "image": "/ethersjs.png",
+        "link": "https://docs.ethers.org/"
+    },{
+        "skill": "web3js",
+        "image": "/web3js.png",
+        "link": "https://web3js.readthedocs.io/"
+    },{
+        "skill": "IPFS",
+        "image": "/ipfs.png",
+        "link": "https://ipfs.tech/"
+    },{
+        "skill": "HTML",
+        "image": "/html.png",
+        "link": "https://en.wikipedia.org/wiki/HTML"
+    },{
+        "skill": "CSS",
+        "image": "/css.png",
+        "link": "https://en.wikipedia.org/wiki/CSS"
+    },{
+        "skill": "React Native",
+        "image": "/reactnative.png",
+        "link": "https://reactnative.dev/"
+    },{
+        "skill": "NPM",
+        "image": "/npm.png",
+        "link": "https://www.npmjs.com/"
+    },{
+        "skill": "YARN",
+        "image": "/yarn.png",
+        "link": "https://yarnpkg.com/"
+    },{
+        "skill": "Git",
+        "image": "/git.png",
+        "link": "https://git-scm.com/"
+    }
+    
+]
