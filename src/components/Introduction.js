@@ -8,19 +8,19 @@ const Introduction = () => {
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        className="xs:flex xs:flex-col pl-10 pt-6 sm:grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-10 xl:gap-10 lg:py-16 lg:grid-cols-12"
+        className="xs:flex xs:flex-col sm:pl-10 pt-6 sm:grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-10 xl:gap-10 lg:py-16 lg:grid-cols-12"
       >
         <div className="mr-auto place-self-center lg:col-span-7">
           <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none sm:text-3xl md:text-4xl xl:text-6xl dark:text-white">
             Hi 👋, I&apos;m Alonso Solis Gerloni
           </h1>
           <p className="max-w-2xl mb-6 font-light text-gray-600 lg:mb-8 sm:text-md md:text-md lg:text-xl dark:text-gray-400">
-            I am a resourceful Blockchain Developer from Peru and Italy
+            I am a resourceful Blockchain and Web Developer from Peru and Italy
             currently living in Estonia with almost a year of experience in
-            software engineering and Decentralized App development. Good
+            software engineering and Decentralized App development. I have good
             knowledge in smart contracts, web interfaces, and react apps.
-            Looking for a job as a Blockchain Developer that will allow me to
-            build the financial systems of tomorrow.
+            Looking for a job as a Blockchain or Web Developer that will allow
+            me to build the financial systems of tomorrow.
           </p>
           <a
             href="#contact"

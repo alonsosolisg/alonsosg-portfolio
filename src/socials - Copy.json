@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Email",
+        "icon": "/mailicon.svg",
+        "user": "alonsosolisgerloni@gmail.com",
+        "link": "mailto:alonsosolisgerloni@gmail.com"
+    },
+    {
+        "name": "LinkedIn",
+        "icon": "/linkedinicon.svg",
+        "user": "Alonso Solis Gerloni",
+        "link": "https://www.linkedin.com/in/alonso-solis-gerloni-a5b88020a/"
+    },
+    {
+        "name": "Whatsapp",
+        "icon": "/whatsappicon.svg",
+        "user": "+372 53789565",
+        "link": "https://api.whatsapp.com/send?phone=37253789565"
+    },
+    {
+        "name": "Discord",
+        "icon": "/discordicon.svg",
+        "user": "AlonsoSG#2917",
+        "link": "https://discordapp.com/users/702546883939401788"
+    },
+    {
+        "name": "GitHub",
+        "icon": "/githubicon.svg",
+        "user": "@alonsosolisg",
+        "link": "https://github.com/alonsosolisg"
+    },
+    {
+        "name": "Location & Zone",
+        "icon": "/locationicon.svg",
+        "user": "Tallin, Estonia (GMT+2)",
+        "link": "https://www.timeanddate.com/worldclock/estonia/tallinn"
+    }
+]
