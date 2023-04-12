@@ -12,6 +12,7 @@ import CookieConsent from "react-cookie-consent";
 import { useEffect, useState } from "react";
 
 const CLARITY_ID = process.env.CLARITY_ID;
+const GA_TRACKING_ID = process.env.GA_TRACKING_ID;
 
 export default function Home() {
   const [cookieConsent, setCookieConsent] = useState(false);
@@ -49,6 +50,22 @@ export default function Home() {
             }}
           />
         )}
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${GA_TRACKING_ID}', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+        />
         <title>Alonso Solis Gerloni</title>
       </Head>
       <CookieConsent
