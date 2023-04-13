@@ -50,13 +50,16 @@ export default function Home() {
             }}
           />
         )}
-        <script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
+        {cookieConsent === true && (
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+          ></script>
+        )}
+        {cookieConsent === true && (
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
@@ -64,8 +67,9 @@ export default function Home() {
                 page_path: window.location.pathname,
               });
             `,
-          }}
-        />
+            }}
+          />
+        )}
         <title>Alonso Solis Gerloni</title>
       </Head>
       <CookieConsent
