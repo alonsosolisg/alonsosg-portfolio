@@ -16,11 +16,11 @@ const Introduction = () => {
           </h1>
           <p className="max-w-2xl mb-6 font-light text-gray-600 lg:mb-8 sm:text-md md:text-md lg:text-xl dark:text-gray-400">
             I am a resourceful Blockchain and Web Developer from Peru and Italy
-            currently living in Estonia with almost a year of experience in
-            software engineering and Decentralized App development. I have good
-            knowledge in smart contracts, web interfaces, and react apps.
-            Looking for a job as a Blockchain or Web Developer that will allow
-            me to build the financial systems of tomorrow.
+            currently living in Estonia with more than a year of experience in
+            software engineering and Decentralized App development. I have
+            proficient knowledge in smart contracts, web interfaces, and react
+            apps. Looking for a job as a Blockchain or Web Developer that will
+            allow me to build the financial systems of tomorrow.
           </p>
           <a
             href="#contact"

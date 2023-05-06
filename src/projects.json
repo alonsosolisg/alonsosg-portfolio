@@ -1,5 +1,19 @@
 [
   {
+    "name": "Membo",
+    "description": "A membership management platform created with React, Bootstrap and Redux Toolkit.",
+    "link": "https://main--calm-cranachan-163dbb.netlify.app/",
+    "github": "https://github.com/alonsosolisg/membo",
+    "image": "/memboimage.png"
+  },
+  {
+    "name": "Kuehne+Nagel Internship Project",
+    "description": "An asset management platform where empoyee information can be managed. Created with React and Bootstrap.",
+    "link": "https://github.com/alonsosolisg/kuehne-nagel-internship",
+    "github": "https://github.com/alonsosolisg/kuehne-nagel-internship",
+    "image": "/kn_internship.png"
+  },
+  {
     "name": "Decentralized Exchange",
     "description": "Elaborated through the Dapp University Bootcamp. Uses smart contracts in Solidity to create ERC-20 tokens and to set the exchange. Uses JavaScript for the front-end, testing, and deployment of the contracts through scripts.",
     "link": "https://damp-silence-5218.on.fleek.co/",
@@ -19,12 +33,5 @@
     "link": "#",
     "github": "https://github.com/alonsosolisg/alonsosg-portfolio",
     "image": "/portfolioimage.png"
-  },
-  {
-    "name": "Membo",
-    "description": "A membership management platform created with React, Bootstrap and Redux Toolkit.",
-    "link": "https://main--calm-cranachan-163dbb.netlify.app/",
-    "github": "https://github.com/alonsosolisg/membo",
-    "image": "/memboimage.png"
   }
 ]
