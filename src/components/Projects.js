@@ -46,7 +46,9 @@ const Projects = () => {
                       href={project.github}
                       target="_blank"
                       rel="noreferrer"
-                      className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                      className={`flex ${
+                        project.github === "none" && "hidden"
+                      } text-gray-500 hover:text-gray-900 dark:hover:text-white`}
                     >
                       <svg
                         className="w-5 h-5"

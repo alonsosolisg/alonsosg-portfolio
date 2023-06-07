@@ -1,10 +1,10 @@
 [
   {
-    "name": "Membo",
-    "description": "A membership management platform created with React, Bootstrap and Redux Toolkit.",
-    "link": "https://main--calm-cranachan-163dbb.netlify.app/",
-    "github": "https://github.com/alonsosolisg/membo",
-    "image": "/memboimage.png"
+    "name": "Bikebox",
+    "description": "A bike repair shop website with an Email constact system and an Admin layer to manage customers created with Next.js, TRPC, Tailwind CSS and MySQL using the T3 Stack.",
+    "link": "https://bikebox.ee",
+    "github": "none",
+    "image": "/bikeboxsc.png"
   },
   {
     "name": "Kuehne+Nagel Internship Project",
@@ -12,6 +12,20 @@
     "link": "https://github.com/alonsosolisg/kuehne-nagel-internship",
     "github": "https://github.com/alonsosolisg/kuehne-nagel-internship",
     "image": "/kn_internship.png"
+  },
+  {
+    "name": "Uniply Landing Page",
+    "description": "A landing page for a startup that aims to unify the process of applying for a home loan. Created with Next.js and Tailwind CSS and Prisma connected into a MySQL Planetscale DB.",
+    "link": "https://uniply.ee/en/",
+    "github": "none",
+    "image": "/uniply.png"
+  },
+  {
+    "name": "Membo",
+    "description": "A membership management platform created with React, Bootstrap and Redux Toolkit.",
+    "link": "https://main--calm-cranachan-163dbb.netlify.app/",
+    "github": "https://github.com/alonsosolisg/membo",
+    "image": "/memboimage.png"
   },
   {
     "name": "Decentralized Exchange",
