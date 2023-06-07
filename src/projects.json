@@ -1,7 +1,7 @@
 [
   {
     "name": "Bikebox",
-    "description": "A bike repair shop website with an Email constact system and an Admin layer to manage customers created with Next.js, TRPC, Tailwind CSS and MySQL using the T3 Stack.",
+    "description": "A bike repair shop website with an Email contact system and an Admin layer to manage customers. Created with Next.js, TRPC, Tailwind CSS and MySQL using the T3 Stack.",
     "link": "https://bikebox.ee",
     "github": "none",
     "image": "/bikeboxsc.png"
