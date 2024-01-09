@@ -12,3 +12,12 @@
     repeating-linear-gradient(45deg, var(--c1) 0 25%, var(--c2) 0 50%) 0 0 /
       calc(2 * var(--s)) calc(2 * var(--s));
 }
+
+* {
+  cursor: none;
+}
+
+.custom-gradient {
+  background: linear-gradient(130deg, #3e5fb4, #f72487, #f16961, #fffdfa);
+  animation: grain 5s ease-in-out infinite;
+}
