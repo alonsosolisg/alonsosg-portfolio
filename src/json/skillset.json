@@ -1,0 +1,112 @@
+[
+  {
+    "skill": "JavaScript",
+    "image": "/javascript.png",
+    "link": "https://www.javascript.com/"
+  },
+  {
+    "skill": "TypeScript",
+    "image": "/typescript.png",
+    "link": "https://www.typescriptlang.org/"
+  },
+  {
+    "skill": "React",
+    "image": "/react.png",
+    "link": "https://reactjs.org/"
+  },
+  {
+    "skill": "NEXT.js",
+    "image": "/nextjs.png",
+    "link": "https://nextjs.org/"
+  },
+  {
+    "skill": "Express",
+    "image": "/express.png",
+    "link": "https://expressjs.com/"
+  },
+  {
+    "skill": "NodeJS",
+    "image": "/nodejs.png",
+    "link": "https://nodejs.org/en/"
+  },
+  {
+    "skill": "Solidity",
+    "image": "/solidity.png",
+    "link": "https://docs.soliditylang.org/"
+  },
+  {
+    "skill": "Hardhat",
+    "image": "/hardhat.png",
+    "link": "https://hardhat.org/"
+  },
+  {
+    "skill": "EthersJS",
+    "image": "/ethersjs.png",
+    "link": "https://docs.ethers.org/"
+  },
+  {
+    "skill": "web3js",
+    "image": "/web3js.png",
+    "link": "https://web3js.readthedocs.io/"
+  },
+  {
+    "skill": "HTML",
+    "image": "/html.png",
+    "link": "https://en.wikipedia.org/wiki/HTML"
+  },
+  {
+    "skill": "CSS",
+    "image": "/css.png",
+    "link": "https://en.wikipedia.org/wiki/CSS"
+  },
+  {
+    "skill": "NPM",
+    "image": "/npm.png",
+    "link": "https://www.npmjs.com/"
+  },
+  {
+    "skill": "Git",
+    "image": "/git.png",
+    "link": "https://git-scm.com/"
+  },
+  {
+    "skill": "Redux",
+    "image": "/redux.png",
+    "link": "https://redux.js.org/"
+  },
+  {
+    "skill": "Tailwind CSS",
+    "image": "/tailwind.png",
+    "link": "https://tailwindcss.com/"
+  },
+  {
+    "skill": "Bootstrap",
+    "image": "/bootstrap.png",
+    "link": "https://getbootstrap.com/"
+  },
+  {
+    "skill": "PostgreSQL",
+    "image": "/postgresql.png",
+    "link": "https://www.postgresql.org/"
+  },
+  {
+    "skill": "MySQL",
+    "image": "/mysql.png",
+    "link": "https://www.mysql.com/"
+  },
+  {
+    "skill": "SSIS",
+    "image": "/ssis.png",
+    "link": "https://docs.microsoft.com/en-us/sql/integration-services/sql-server-integration-services?view=sql-server-ver15"
+  },
+  {
+    "skill": "Azure",
+    "image": "/azure.png",
+    "link": "https://azure.microsoft.com/en-us/"
+  },
+  {
+    "skill": "Python",
+    "image": "/python.png",
+    "link": "https://www.python.org/"
+  }
+]

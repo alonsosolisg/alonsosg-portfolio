@@ -19,7 +19,7 @@ const Hero = ({
           <div
             onMouseEnter={textEnter}
             onMouseLeave={textLeave}
-            className="text-customBlack-700 leading-tight text-[82px] font-extrabold "
+            className="text-customBlack-700 select-none leading-tight text-[82px] font-extrabold "
           >
             Hello,
             <br />
@@ -28,7 +28,7 @@ const Hero = ({
           <div
             onMouseEnter={textEnter}
             onMouseLeave={textLeave}
-            className="text-customBlack-700 text-[56px] font-light "
+            className="text-customBlack-700 select-none text-[56px] font-light "
           >
             Software Developer
           </div>
@@ -36,7 +36,7 @@ const Hero = ({
         <div
           onMouseEnter={textEnter}
           onMouseLeave={textLeave}
-          className="w-[92px] h-3.5 bg-customBlack-700"
+          className="w-[92px] h-3.5 select-none bg-customBlack-700"
         />
       </div>
       <Image
@@ -44,7 +44,7 @@ const Hero = ({
         alt="Picture of the author"
         width={1000}
         height={1000}
-        className="-mt-20 w-[600px] h-[600px]"
+        className="-mt-20 w-[600px] h-[600px] select-none"
         onMouseEnter={imageEnter}
         onMouseLeave={imageLeave}
       />

@@ -16,7 +16,7 @@ const Footer = ({
 }) => {
   return (
     <div className="w-full h-fit bg-customBlack-800 font-normal flex justify-evenly py-10 text-customWhite-200">
-      <div className="flex justify-center gap-2 items-start flex-col">
+      <div className="flex justify-center select-none gap-2 items-start flex-col">
         <Link
           onMouseEnter={textEnter}
           onMouseLeave={textLeave}
@@ -54,7 +54,7 @@ const Footer = ({
         <p
           onMouseEnter={textEnter}
           onMouseLeave={textLeave}
-          className="font-bold underline"
+          className="font-bold select-none underline"
         >
           Email
         </p>
@@ -62,12 +62,12 @@ const Footer = ({
           onMouseEnter={textEnter}
           onMouseLeave={textLeave}
           className="hover:text-customYellow-600 transition-all"
-          href="/"
+          href="mailto:alonsosolisgerloni@gmail.com"
         >
           alonsosolisgerloni@gmail.com
         </Link>
       </div>
-      <div className="flex justify-center gap-2 items-start flex-col">
+      <div className="flex select-none justify-center gap-2 items-start flex-col">
         <p
           onMouseEnter={textEnter}
           onMouseLeave={textLeave}
@@ -76,14 +76,17 @@ const Footer = ({
           Socials
         </p>
         <div className="flex justify-start gap-4">
-          <Link href="/">
+          <Link
+            target="_blank"
+            href="https://www.linkedin.com/in/alonso-solis-gerloni-a5b88020a/"
+          >
             <FaLinkedin
               onMouseEnter={hoverEnter}
               onMouseLeave={hoverLeave}
               className="w-[50px] h-[50px] hover:text-customYellow-600  hover:scale-125"
             />
           </Link>
-          <Link href="/">
+          <Link target="_blank" href="https://github.com/alonsosolisg">
             <FaGithub
               onMouseEnter={hoverEnter}
               onMouseLeave={hoverLeave}

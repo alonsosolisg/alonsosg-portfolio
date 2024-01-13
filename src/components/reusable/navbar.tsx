@@ -14,7 +14,7 @@ const Navbar = ({
         onMouseEnter={textEnter}
         onMouseLeave={textLeave}
         href="#projects"
-        className="text-[40px] font-light hover:underline"
+        className="text-[40px] font-light hover:underline select-none"
       >
         PROJECTS
       </Link>
@@ -23,7 +23,7 @@ const Navbar = ({
         onMouseEnter={textEnter}
         onMouseLeave={textLeave}
         href="#skillset"
-        className="text-[40px] font-light hover:underline"
+        className="text-[40px] font-light hover:underline select-none"
       >
         SKILLSET
       </Link>
@@ -32,7 +32,7 @@ const Navbar = ({
         onMouseEnter={textEnter}
         onMouseLeave={textLeave}
         href="#certificates"
-        className="text-[40px] font-light hover:underline"
+        className="text-[40px] font-light hover:underline select-none"
       >
         CERTIFICATES
       </Link>
@@ -41,7 +41,7 @@ const Navbar = ({
         onMouseEnter={textEnter}
         onMouseLeave={textLeave}
         href="#contact"
-        className="text-[40px] font-light hover:underline"
+        className="text-[40px] font-light hover:underline select-none"
       >
         CONTACT ME
       </Link>

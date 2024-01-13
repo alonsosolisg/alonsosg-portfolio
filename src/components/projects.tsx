@@ -1,6 +1,10 @@
-import React from "react";
-import { FaGithub, FaGlobe, FaCaretRight, FaCaretLeft } from "react-icons/fa";
+"use client";
 
+import React, { useState } from "react";
+import { FaGithub, FaGlobe, FaCaretRight, FaCaretLeft } from "react-icons/fa";
+import projects from "../json/projects.json";
+import Link from "next/link";
+import Image from "next/image";
 const Projects = ({
   textEnter,
   textLeave,
@@ -16,6 +20,9 @@ const Projects = ({
   hoverEnter: () => void;
   hoverLeave: () => void;
 }) => {
+  const [firstInList, setFirstInList] = useState(0);
+  const threeProjects = projects.slice(firstInList, firstInList + 3);
+
   return (
     <div className="w-full -mt-36">
       <svg
@@ -34,136 +41,103 @@ const Projects = ({
         <div
           onMouseEnter={textEnter}
           onMouseLeave={textLeave}
-          className="text-center leading-tight text-white font-robotoCondensed italic text-[50px] font-normal"
+          className="select-none text-center leading-tight text-white font-robotoCondensed italic text-[50px] font-normal"
         >
           PROJECTS
         </div>
         <div className="w-full flex justify-center items-center px-5">
           <FaCaretLeft
-            onMouseEnter={hoverEnter}
-            onMouseLeave={hoverLeave}
-            className="w-[50px] h-[50px] text-customYellow-500 hover:scale-125 transition-all"
+            onMouseEnter={firstInList > 0 ? hoverEnter : () => {}}
+            onMouseLeave={firstInList > 0 ? hoverLeave : () => {}}
+            className={`w-[50px] h-[50px] select-none text-customYellow-500 hover:scale-125 transition-all ${
+              firstInList > 0 ? "" : "opacity-50"
+            }`}
+            onClick={() => {
+              if (firstInList > 0) {
+                setFirstInList(firstInList - 1);
+              }
+            }}
           />
           <div className="w-full h-fit justify-center grid-cols-3 items-center gap-5 grid">
-            <div className="flex-col px-12 justify-center items-center gap-5 inline-flex">
+            {threeProjects.map((project, key) => (
               <div
-                onMouseEnter={imageEnter}
-                onMouseLeave={imageLeave}
-                className="w-full h-[314px] bg-customYellow-500 rounded-[10px]"
-              />
-              <div
-                onMouseEnter={textEnter}
-                onMouseLeave={textLeave}
-                className="text-white text-[35px] font-medium"
+                key={key}
+                className="flex-col px-12 justify-between h-full items-center gap-5 inline-flex"
               >
-                PROJECT 1 NAME
-              </div>
-              <div
-                onMouseEnter={textEnter}
-                onMouseLeave={textLeave}
-                className="text-justify text-white text-xl font-extralight"
-              >
-                A short description for the project as a small paragraph telling
-                what the project is about
-              </div>
-              <div className="justify-center items-center gap-[30px] inline-flex">
                 <div
-                  onMouseEnter={hoverEnter}
-                  onMouseLeave={hoverLeave}
-                  className="w-[60px] h-[60px] bg-customYellow-500 p-2 rounded-full  hover:scale-125 transition-all"
+                  onMouseEnter={imageEnter}
+                  onMouseLeave={imageLeave}
+                  className="w-full h-[314px]  bg-customYellow-500 rounded-[10px]"
                 >
-                  <FaGlobe className="w-full h-full" />
+                  <Image
+                    src={`/images${project.image}`}
+                    alt="Project Image"
+                    width={1000}
+                    height={1000}
+                    className="w-full select-none h-full object-cover rounded-[10px]"
+                  />
+                </div>
+
+                <div
+                  onMouseEnter={textEnter}
+                  onMouseLeave={textLeave}
+                  className="text-white select-none text-[35px] font-medium"
+                >
+                  {project.name}
                 </div>
                 <div
-                  onMouseEnter={hoverEnter}
-                  onMouseLeave={hoverLeave}
-                  className="w-[60px] h-[60px] bg-customYellow-500 p-2 rounded-full  hover:scale-125 transition-all"
+                  onMouseEnter={textEnter}
+                  onMouseLeave={textLeave}
+                  className="text-justify select-none text-white text-xl font-extralight"
                 >
-                  <FaGithub className="w-full h-full" />
+                  {project.description}
+                </div>
+                <div className="justify-center items-center gap-[30px] inline-flex">
+                  <Link
+                    className={`${project.link === "none" ? "hidden" : "flex"}`}
+                    href={project.link}
+                  >
+                    <div
+                      onMouseEnter={hoverEnter}
+                      onMouseLeave={hoverLeave}
+                      className="w-[60px] h-[60px] select-none bg-customYellow-500 p-2 rounded-full  hover:scale-125 transition-all"
+                    >
+                      <FaGlobe className="w-full h-full" />
+                    </div>
+                  </Link>
+                  <Link
+                    className={`${
+                      project.github === "none" ? "hidden" : "flex"
+                    }`}
+                    href={project.github}
+                  >
+                    <div
+                      onMouseEnter={hoverEnter}
+                      onMouseLeave={hoverLeave}
+                      className="w-[60px] h-[60px] select-none bg-customYellow-500 p-2 rounded-full  hover:scale-125 transition-all"
+                    >
+                      <FaGithub className="w-full h-full" />
+                    </div>
+                  </Link>
                 </div>
               </div>
-            </div>
-            <div className="flex-col px-12 justify-center items-center gap-5 inline-flex">
-              <div
-                onMouseEnter={imageEnter}
-                onMouseLeave={imageLeave}
-                className="w-full h-[314px] bg-customYellow-500 rounded-[10px]"
-              />
-              <div
-                onMouseEnter={textEnter}
-                onMouseLeave={textLeave}
-                className="text-white text-[35px] font-medium"
-              >
-                PROJECT 2 NAME
-              </div>
-              <div
-                onMouseEnter={textEnter}
-                onMouseLeave={textLeave}
-                className="text-justify text-white text-xl font-extralight"
-              >
-                A short description for the project as a small paragraph telling
-                what the project is about
-              </div>
-              <div className="justify-center items-center gap-[30px] inline-flex">
-                <div
-                  onMouseEnter={hoverEnter}
-                  onMouseLeave={hoverLeave}
-                  className="w-[60px] h-[60px] bg-customYellow-500 p-2 rounded-full  hover:scale-125 transition-all"
-                >
-                  <FaGlobe className="w-full h-full" />
-                </div>
-                <div
-                  onMouseEnter={hoverEnter}
-                  onMouseLeave={hoverLeave}
-                  className="w-[60px] h-[60px] bg-customYellow-500 p-2 rounded-full  hover:scale-125 transition-all"
-                >
-                  <FaGithub className="w-full h-full" />
-                </div>
-              </div>
-            </div>
-            <div className="flex-col px-12 justify-center items-center gap-5 inline-flex">
-              <div
-                onMouseEnter={imageEnter}
-                onMouseLeave={imageLeave}
-                className="w-full h-[314px] bg-customYellow-500 rounded-[10px]"
-              />
-              <div
-                onMouseEnter={textEnter}
-                onMouseLeave={textLeave}
-                className="text-white text-[35px] font-medium"
-              >
-                PROJECT 3 NAME
-              </div>
-              <div
-                onMouseEnter={textEnter}
-                onMouseLeave={textLeave}
-                className="text-justify text-white text-xl font-extralight"
-              >
-                A short description for the project as a small paragraph telling
-                what the project is about
-              </div>
-              <div className="justify-center items-center gap-[30px] inline-flex">
-                <div
-                  onMouseEnter={hoverEnter}
-                  onMouseLeave={hoverLeave}
-                  className="w-[60px] h-[60px] bg-customYellow-500 p-2 rounded-full  hover:scale-125 transition-all"
-                >
-                  <FaGlobe className="w-full h-full" />
-                </div>
-                <div
-                  onMouseEnter={hoverEnter}
-                  onMouseLeave={hoverLeave}
-                  className="w-[60px] h-[60px] bg-customYellow-500 p-2 rounded-full  hover:scale-125 transition-all"
-                >
-                  <FaGithub className="w-full h-full" />
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
           <FaCaretRight
-            onMouseEnter={hoverEnter}
-            onMouseLeave={hoverLeave}
-            className="w-[50px] h-[50px] text-customYellow-500 hover:scale-125 transition-all"
+            onMouseEnter={
+              firstInList < projects.length - 3 ? hoverEnter : () => {}
+            }
+            onMouseLeave={
+              firstInList < projects.length - 3 ? hoverLeave : () => {}
+            }
+            className={`w-[50px] h-[50px] select-none text-customYellow-500 hover:scale-125 transition-all ${
+              firstInList < projects.length - 3 ? "" : "opacity-50"
+            }`}
+            onClick={() => {
+              if (firstInList < projects.length - 3) {
+                setFirstInList(firstInList + 1);
+              }
+            }}
           />
         </div>
       </div>

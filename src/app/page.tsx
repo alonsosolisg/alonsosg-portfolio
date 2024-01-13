@@ -10,6 +10,7 @@ import Skillset from "@/components/skillset";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useSearchParams } from "next/navigation";
+import Head from "next/head";
 
 export default function Home() {
   const serchParams = useSearchParams();
@@ -99,7 +100,12 @@ export default function Home() {
         hoverEnter={hoverEnter}
         hoverLeave={hoverLeave}
       />
-      <Skillset textEnter={textEnter} textLeave={textLeave} />
+      <Skillset
+        textEnter={textEnter}
+        textLeave={textLeave}
+        hoverEnter={hoverEnter}
+        hoverLeave={hoverLeave}
+      />
       <Certificates
         textEnter={textEnter}
         textLeave={textLeave}
