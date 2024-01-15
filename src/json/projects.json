@@ -7,6 +7,13 @@
     "image": "bikeboxsc.png"
   },
   {
+    "name": "StoreDevLabs",
+    "description": "A website and personally owned company that offers e-commerce store web development services. Worked with different brands to provide their desired shopping experience. The landing page was created with Next.js and Tailwind CSS.",
+    "link": "https://storedevlabs.com",
+    "github": "none",
+    "image": "storedevlabs.png"
+  },
+  {
     "name": "Kuehne+Nagel Internship Project",
     "description": "An asset management platform where empoyee information can be managed. Created with React and Bootstrap.",
     "link": "none",
