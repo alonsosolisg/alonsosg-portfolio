@@ -67,10 +67,10 @@ const Projects = ({
                 <div
                   onMouseEnter={imageEnter}
                   onMouseLeave={imageLeave}
-                  className="w-full h-[314px]  bg-customYellow-500 rounded-[10px]"
+                  className="w-full h-[314px] bg-customYellow-500 rounded-[10px]"
                 >
                   <Image
-                    src={`/images${project.image}`}
+                    src={`/images/${project.image}`}
                     alt="Project Image"
                     width={1000}
                     height={1000}

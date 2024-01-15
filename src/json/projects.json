@@ -4,48 +4,48 @@
     "description": "A bike repair shop website with an Email contact system and an Admin layer to manage customers. Created with Next.js, TRPC, Tailwind CSS and MySQL using the T3 Stack.",
     "link": "https://bikebox.ee",
     "github": "none",
-    "image": "/bikeboxsc.png"
+    "image": "bikeboxsc.png"
   },
   {
     "name": "Kuehne+Nagel Internship Project",
     "description": "An asset management platform where empoyee information can be managed. Created with React and Bootstrap.",
     "link": "none",
     "github": "https://github.com/alonsosolisg/kuehne-nagel-internship",
-    "image": "/kn_internship.png"
+    "image": "kn_internship.png"
   },
   {
     "name": "Uniply Landing Page",
     "description": "A landing page for a startup that aims to unify the process of applying for a home loan. Created with Next.js and Tailwind CSS and Prisma connected into a MySQL Planetscale DB.",
     "link": "https://uniply.ee/en/",
     "github": "none",
-    "image": "/uniply.png"
+    "image": "uniply.png"
   },
   {
     "name": "Membo",
     "description": "A membership management platform created with React, Bootstrap and Redux Toolkit.",
     "link": "https://main--calm-cranachan-163dbb.netlify.app/",
     "github": "https://github.com/alonsosolisg/membo",
-    "image": "/memboimage.png"
+    "image": "memboimage.png"
   },
   {
     "name": "Decentralized Exchange",
     "description": "Elaborated through the Dapp University Bootcamp. Uses smart contracts in Solidity to create ERC-20 tokens and to set the exchange. Uses JavaScript for the front-end, testing, and deployment of the contracts through scripts.",
     "link": "https://damp-silence-5218.on.fleek.co/",
     "github": "https://github.com/alonsosolisg/decentralized-exchange",
-    "image": "/exchangeimage.png"
+    "image": "exchangeimage.png"
   },
   {
     "name": "Crypto Service Marketplace",
     "description": "Elaborated through the Eincode Udemy course. Uses smart contracts to handle payments for the purchase of services.",
     "link": "https://63cdf0cccf78ab57a4a88418--hilarious-cuchufli-ac3f1c.netlify.app/",
     "github": "https://github.com/alonsosolisg/service-marketplace",
-    "image": "/marketplaceimage.png"
+    "image": "marketplaceimage.png"
   },
   {
     "name": "Personal Portfolio",
     "description": "My personal portfolio elaborated in React with the NEXT.JS framework.",
     "link": "#",
     "github": "https://github.com/alonsosolisg/alonsosg-portfolio",
-    "image": "/portfolioimage.png"
+    "image": "portfolioimage.png"
   }
 ]
