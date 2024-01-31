@@ -46,7 +46,7 @@ const Certificates = ({
         <div
           onMouseEnter={textEnter}
           onMouseLeave={textLeave}
-          className="text-center select-none font-robotoCondensed italic bg-customBlack-700 p-6 md:-rotate-90 text-white md:text-[40px] lg:text-[50px] font-normal "
+          className="text-center xs:mb-12 md:mb-0 select-none font-robotoCondensed italic bg-customBlack-700 p-6 md:-rotate-90 text-white md:text-[40px] lg:text-[50px] font-normal "
         >
           CERTIFICATES
         </div>
@@ -82,7 +82,7 @@ const Certificates = ({
             }}
           />
         </div>
-        <div className="absolute xs:flex md:hidden gap-2 xs:mr-10 md:mr-2 lg:mr-8 flex-row right-0">
+        <div className="absolute xs:flex md:hidden gap-2 w-full mb-6 justify-center bottom-0 md:mr-2 lg:mr-8 flex-row right-0">
           <FaChevronCircleLeft
             onMouseEnter={firstInList > 0 ? hoverEnter : () => {}}
             onMouseLeave={firstInList > 0 ? hoverLeave : () => {}}
@@ -149,7 +149,7 @@ const Certificates = ({
                       onMouseLeave={textLeave}
                       className="text-zinc-900 text-lg font-light font-['Roboto']"
                     >
-                      DATE OF COMPLETION: 10-10-2023
+                      DATE OF COMPLETION: {certificate.completion}
                     </div>
                   </div>
                   <div className="h-fit justify-center xs:flex-col md:flex-row items-center gap-5 flex">
@@ -216,7 +216,7 @@ const Certificates = ({
                       onMouseLeave={textLeave}
                       className="text-zinc-900 text-lg font-light font-['Roboto']"
                     >
-                      DATE OF COMPLETION: 10-10-2023
+                      DATE OF COMPLETION: {certificate.completion}
                     </div>
                   </div>
                   <div className="h-fit justify-center xs:flex-col md:flex-row items-center gap-5 flex">

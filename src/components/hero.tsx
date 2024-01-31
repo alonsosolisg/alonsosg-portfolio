@@ -41,6 +41,7 @@ const Hero = ({
       </div>
       <Image
         src="/images/home-pic.png"
+        priority
         alt="Picture of the author"
         width={1000}
         height={1000}

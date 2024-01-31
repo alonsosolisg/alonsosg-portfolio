@@ -3,24 +3,28 @@
     "image": "/javascript_linkedin.png",
     "name": "Javascript Essential Training",
     "description": "Learn Javascript from the ground up. Taught by Morten Rand-Hendriksen.",
-    "link": "https://www.linkedin.com/learning-login/share?account=75619146&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fjavascript-essential-training%3Ftrk%3Dshare_ent_url%26shareId%3D1OwzERP9TyiMMLqzNa4AOA%253D%253D"
+    "link": "https://www.linkedin.com/learning-login/share?account=75619146&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fjavascript-essential-training%3Ftrk%3Dshare_ent_url%26shareId%3D1OwzERP9TyiMMLqzNa4AOA%253D%253D",
+    "completion": "01/03/2023"
   },
   {
     "image": "/postgres_linkedin.png",
     "name": "PostgreSQL Essential Training",
     "description": "Learn how to use PostgreSQL, from beginner basics to advanced techniques. Taught by Bill Weinman.",
-    "link": "https://www.linkedin.com/learning-login/share?account=75619146&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fpostgresql-essential-training%3Ftrk%3Dshare_ent_url%26shareId%3D%252FNSrXIS8QxWSuFbSmZbtbw%253D%253D"
+    "link": "https://www.linkedin.com/learning-login/share?account=75619146&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fpostgresql-essential-training%3Ftrk%3Dshare_ent_url%26shareId%3D%252FNSrXIS8QxWSuFbSmZbtbw%253D%253D",
+    "completion": "26/03/2023"
   },
   {
     "image": "/dappuniversity.jpg",
     "name": "Dapp University Bootcamp",
     "description": "Learn how to build decentralized applications on the Ethereum blockchain. Taught by blockchain developer Gregory McCubbin.",
-    "link": "https://www.dappuniversity.com/"
+    "link": "https://www.dappuniversity.com/",
+    "completion": "15/01/2023"
   },
   {
     "image": "/udemyeincode.jpg",
     "name": "Udemy Eincode Solidity",
     "description": "Learn how to build decentralized applications on the Ethereum blockchain. Taught by Filip Jerga.",
-    "link": "https://www.udemy.com/share/105e9i3@Qvu707JJzw2bx_IByRU-AnHLfaajSSOd0VKLTEAxbg2dUNgcvIs0ctIK5lGqYTfsig==/"
+    "link": "https://www.udemy.com/share/105e9i3@Qvu707JJzw2bx_IByRU-AnHLfaajSSOd0VKLTEAxbg2dUNgcvIs0ctIK5lGqYTfsig==/",
+    "completion": "09/05/2022"
   }
 ]
