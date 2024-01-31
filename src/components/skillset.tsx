@@ -16,10 +16,10 @@ const Skillset = ({
 }) => {
   return (
     <div
-      className="w-full bg-pattern h-fit flex justify-center items-center p-10"
+      className="w-full bg-pattern h-fit flex justify-center items-center xs:p-6 md:p-10"
       id="skillset"
     >
-      <div className="bg-customBlack-700 flex flex-col p-10 rounded-md w-full h-full">
+      <div className="bg-customBlack-700 flex flex-col xs:p-6 md:p-10 rounded-md w-full h-full">
         <div
           onMouseEnter={textEnter}
           onMouseLeave={textLeave}
@@ -27,14 +27,14 @@ const Skillset = ({
         >
           SKILLSET
         </div>
-        <div className="w-full h-full p-10 grid grid-cols-6 gap-8">
+        <div className="w-full h-full xs:p-2 md:p-10 grid xs:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
           {skillset.map((skill, key) => (
             <Link
               onMouseEnter={hoverEnter}
               onMouseLeave={hoverLeave}
               href={skill.link}
               target="_blank"
-              className="font-normal select-none flex flex-col gap-2 justify-center items-center text-center font-robotoCondensed italic text-customWhite-200"
+              className="font-normal xs:text-lg md:text-3xl select-none flex flex-col gap-2 justify-center items-center text-center font-robotoCondensed italic text-customWhite-200"
               key={key}
             >
               <div className="w-fit h-fit p-4 flex justify-center items-center bg-customYellow-600 rounded-full">

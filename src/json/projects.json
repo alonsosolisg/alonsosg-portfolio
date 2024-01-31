@@ -1,17 +1,24 @@
 [
   {
-    "name": "Bikebox",
-    "description": "A bike repair shop website with an Email contact system and an Admin layer to manage customers. Created with Next.js, TRPC, Tailwind CSS and MySQL using the T3 Stack.",
-    "link": "https://bikebox.ee",
-    "github": "none",
-    "image": "bikeboxsc.png"
-  },
-  {
     "name": "StoreDevLabs",
     "description": "A website and personally owned company that offers e-commerce store web development services. Worked with different brands to provide their desired shopping experience. The landing page was created with Next.js and Tailwind CSS.",
     "link": "https://storedevlabs.com",
     "github": "none",
     "image": "storedevlabs.png"
+  },
+  {
+    "name": "Exoticcao Webpage",
+    "description": "An e-commerce store for chocolate products. Created with Next.js, Tailwind CSS and using the Shopify GraphQL Storefront and Admin API's to leverage Shopify's functionality.",
+    "link": "https://exoticcao.com",
+    "github": "none",
+    "image": "exoticcao.png"
+  },
+  {
+    "name": "Bodega Murga",
+    "description": "A website for a Peruvian organic wine store. Created with Shopify Liquid using a base free theme as a template, adding custom Liquid code (Javascript, HTML, CSS & JSON metadata)",
+    "link": "https://bodegamurga.com",
+    "github": "none",
+    "image": "bodegamurga.png"
   },
   {
     "name": "Kuehne+Nagel Internship Project",
@@ -28,11 +35,11 @@
     "image": "uniply.png"
   },
   {
-    "name": "Membo",
-    "description": "A membership management platform created with React, Bootstrap and Redux Toolkit.",
-    "link": "https://main--calm-cranachan-163dbb.netlify.app/",
-    "github": "https://github.com/alonsosolisg/membo",
-    "image": "memboimage.png"
+    "name": "Bikebox",
+    "description": "A bike repair shop website with an Email contact system and an Admin layer to manage customers. Created with Next.js, TRPC, Tailwind CSS and MySQL using the T3 Stack.",
+    "link": "https://bikebox.ee",
+    "github": "none",
+    "image": "bikeboxsc.png"
   },
   {
     "name": "Decentralized Exchange",
@@ -53,6 +60,6 @@
     "description": "My personal portfolio elaborated in React with the NEXT.JS framework.",
     "link": "#",
     "github": "https://github.com/alonsosolisg/alonsosg-portfolio",
-    "image": "portfolioimage.png"
+    "image": "personalportfolio.png"
   }
 ]

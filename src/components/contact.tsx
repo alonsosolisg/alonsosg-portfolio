@@ -39,10 +39,10 @@ const Contact = ({
   }
   return (
     <div
-      className="relative w-full flex justify-center items-center py-10"
+      className="relative w-full flex justify-center items-center xs:py-0 sm:py-10"
       id="contact"
     >
-      <div className="w-[700px] h-[700px] flex justify-center gap-6 items-center flex-col rounded-full bg-customBlack-700">
+      <div className="xs:rounded-none xs:w-full xs:py-10 md:py-0 xs:h-full sm:w-[600px] sm:h-[600px] md:w-[700px] md:h-[700px] flex overflow-x-hidden justify-center gap-6 items-center flex-col sm:rounded-full bg-customBlack-700">
         <div
           onMouseEnter={textEnter}
           onMouseLeave={textLeave}

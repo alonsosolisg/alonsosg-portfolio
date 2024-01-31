@@ -15,8 +15,8 @@ const Footer = ({
   hoverLeave: () => void;
 }) => {
   return (
-    <div className="w-full h-fit bg-customBlack-800 font-normal flex justify-evenly py-10 text-customWhite-200">
-      <div className="flex justify-center select-none gap-2 items-start flex-col">
+    <div className="w-full h-fit bg-customBlack-800 xs:text-sm md:text-2xl font-normal flex xs:flex-col lg:flex-row items-center xs:text-center lg:text-start justify-evenly py-10 lg:gap-0 xs:gap-8 text-customWhite-200">
+      <div className="flex justify-center select-none gap-2 xs:items-center lg:items-start flex-col">
         <Link
           onMouseEnter={textEnter}
           onMouseLeave={textLeave}
@@ -50,7 +50,7 @@ const Footer = ({
           CONTACT ME
         </Link>
       </div>
-      <div className="flex justify-center gap-2 items-start flex-col">
+      <div className="flex justify-center gap-2 xs:items-center lg:items-start flex-col">
         <p
           onMouseEnter={textEnter}
           onMouseLeave={textLeave}
@@ -67,7 +67,7 @@ const Footer = ({
           alonsosolisgerloni@gmail.com
         </Link>
       </div>
-      <div className="flex select-none justify-center gap-2 items-start flex-col">
+      <div className="flex select-none justify-center gap-2 xs:items-center lg:items-start flex-col">
         <p
           onMouseEnter={textEnter}
           onMouseLeave={textLeave}
