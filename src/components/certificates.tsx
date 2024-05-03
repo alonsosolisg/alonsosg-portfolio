@@ -133,21 +133,21 @@ const Certificates = ({
                     <div
                       onMouseEnter={textEnter}
                       onMouseLeave={textLeave}
-                      className="text-zinc-900 leading-[50px] xs:text-[40px] lg:text-[50px] font-bold font-['Roboto']"
+                      className="text-zinc-900 leading-[50px] xs:text-[40px] lg:text-[50px] font-bold"
                     >
                       {certificate.name}
                     </div>
                     <div
                       onMouseEnter={textEnter}
                       onMouseLeave={textLeave}
-                      className="text-zinc-900 xs:text-[16px] lg:text-[20px] xl:text-[25px] font-normal font-['Roboto']"
+                      className="text-zinc-900 xs:text-[16px] lg:text-[20px] xl:text-[25px] font-normal"
                     >
                       {certificate.description}
                     </div>
                     <div
                       onMouseEnter={textEnter}
                       onMouseLeave={textLeave}
-                      className="text-zinc-900 text-lg font-light font-['Roboto']"
+                      className="text-zinc-900 text-lg font-light"
                     >
                       DATE OF COMPLETION: {certificate.completion}
                     </div>
@@ -200,21 +200,21 @@ const Certificates = ({
                     <div
                       onMouseEnter={textEnter}
                       onMouseLeave={textLeave}
-                      className="text-zinc-900 leading-[50px] xs:text-[40px] lg:text-[50px] font-bold font-['Roboto']"
+                      className="text-zinc-900 leading-[50px] xs:text-[40px] lg:text-[50px] font-bold"
                     >
                       {certificate.name}
                     </div>
                     <div
                       onMouseEnter={textEnter}
                       onMouseLeave={textLeave}
-                      className="text-zinc-900 xs:text-[16px] lg:text-[20px] xl:text-[25px] font-normal font-['Roboto']"
+                      className="text-zinc-900 xs:text-[16px] lg:text-[20px] xl:text-[25px] font-normal"
                     >
                       {certificate.description}
                     </div>
                     <div
                       onMouseEnter={textEnter}
                       onMouseLeave={textLeave}
-                      className="text-zinc-900 text-lg font-light font-['Roboto']"
+                      className="text-zinc-900 text-lg font-light"
                     >
                       DATE OF COMPLETION: {certificate.completion}
                     </div>

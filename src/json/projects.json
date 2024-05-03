@@ -21,16 +21,23 @@
     "image": "bodegamurga.png"
   },
   {
-    "name": "Kuehne+Nagel Internship Project",
-    "description": "An asset management platform where empoyee information can be managed. Created with React and Bootstrap.",
-    "link": "none",
-    "github": "https://github.com/alonsosolisg/kuehne-nagel-internship",
-    "image": "kn-internship.png"
+    "name": "SilverWise Landing Page",
+    "description": "A landing page for a SaaS company that aims to simplify care home's mangement systems. Created with Next.js and Tailwind CSS.",
+    "link": "https://www.silverwise.eu",
+    "github": "none",
+    "image": "silverwise.png"
+  },
+  {
+    "name": "C2Cash Landing Page",
+    "description": "A landing page for a Crypto Hackathon Project (ETH Tallinn 2024) that aims to simplify the process of exchanging Crypto to Cash. Created with Next.js and Tailwind CSS.",
+    "link": "https://c2cash-landing.vercel.app/",
+    "github": "none",
+    "image": "c2cash.png"
   },
   {
     "name": "Uniply Landing Page",
     "description": "A landing page for a startup that aims to unify the process of applying for a home loan. Created with Next.js and Tailwind CSS and Prisma connected into a MySQL Planetscale DB.",
-    "link": "https://uniply.ee/en/",
+    "link": "https://uniply-landing.vercel.app/",
     "github": "none",
     "image": "uniply-img.png"
   },
@@ -40,6 +47,13 @@
     "link": "https://bikebox.ee",
     "github": "none",
     "image": "bikebox-img.png"
+  },
+  {
+    "name": "Kuehne+Nagel Internship Project",
+    "description": "An asset management platform where empoyee information can be managed. Created with React and Bootstrap.",
+    "link": "none",
+    "github": "https://github.com/alonsosolisg/kuehne-nagel-internship",
+    "image": "kn-internship.png"
   },
   {
     "name": "Decentralized Exchange",
