@@ -1,10 +1,10 @@
 [
   {
-    "name": "StoreDevLabs",
-    "description": "A website and personally owned company that offers e-commerce store web development services. Worked with different brands to provide their desired shopping experience. The landing page was created with Next.js and Tailwind CSS.",
-    "link": "https://storedevlabs.com",
+    "name": "SilverWise Landing Page",
+    "description": "A landing page for a SaaS company that aims to simplify care home's mangement systems. Created with Next.js and Tailwind CSS.",
+    "link": "https://www.silverwise.eu",
     "github": "none",
-    "image": "storedevlabs.png"
+    "image": "silverwise.png"
   },
   {
     "name": "Exoticcao Webpage",
@@ -21,13 +21,6 @@
     "image": "bodegamurga.png"
   },
   {
-    "name": "SilverWise Landing Page",
-    "description": "A landing page for a SaaS company that aims to simplify care home's mangement systems. Created with Next.js and Tailwind CSS.",
-    "link": "https://www.silverwise.eu",
-    "github": "none",
-    "image": "silverwise.png"
-  },
-  {
     "name": "C2Cash Landing Page",
     "description": "A landing page for a Crypto Hackathon Project (ETH Tallinn 2024) that aims to simplify the process of exchanging Crypto to Cash. Created with Next.js and Tailwind CSS.",
     "link": "https://c2cash-landing.vercel.app/",
@@ -42,25 +35,11 @@
     "image": "uniply-img.png"
   },
   {
-    "name": "Bikebox",
-    "description": "A bike repair shop website with an Email contact system and an Admin layer to manage customers. Created with Next.js, TRPC, Tailwind CSS and MySQL using the T3 Stack.",
-    "link": "https://bikebox.ee",
-    "github": "none",
-    "image": "bikebox-img.png"
-  },
-  {
     "name": "Kuehne+Nagel Internship Project",
     "description": "An asset management platform where empoyee information can be managed. Created with React and Bootstrap.",
     "link": "none",
     "github": "https://github.com/alonsosolisg/kuehne-nagel-internship",
     "image": "kn-internship.png"
-  },
-  {
-    "name": "Decentralized Exchange",
-    "description": "Elaborated through the Dapp University Bootcamp. Uses smart contracts in Solidity to create ERC-20 tokens and to set the exchange. Uses JavaScript for the front-end, testing, and deployment of the contracts through scripts.",
-    "link": "https://damp-silence-5218.on.fleek.co/",
-    "github": "https://github.com/alonsosolisg/decentralized-exchange",
-    "image": "exchange-img.png"
   },
   {
     "name": "Crypto Service Marketplace",
